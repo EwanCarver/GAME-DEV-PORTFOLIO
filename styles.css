@@ -98,19 +98,18 @@
       font-size: 14px;
       color: #fff;
     }
-    .accent {
-      /* Accent: Decorative circle. Edit size, shape, or position here */
+     .accent {
       position: absolute;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
       bottom: 20px;
       right: 20px;
-      background-color: rgb(153, 194, 224);
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
+
+    .accent img {
+      width: 80px;  /* control size here */
+      height: auto;
+      display: block;
+    }
+    
     .accent a {
       /* Styles back-to-top link (if enabled) */
       color: #fff;
