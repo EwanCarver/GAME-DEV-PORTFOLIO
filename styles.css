@@ -98,25 +98,28 @@
       font-size: 14px;
       color: #fff;
     }
-    .accent {
+      .accent {
   position: absolute;
   bottom: 20px;
   right: 20px;
 
-  /* FULL reset */
-  width: auto;
-  height: auto;
+  width: 80px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background: none;
   border-radius: 0;
   padding: 0;
   margin: 0;
-}
 
-    .accent img {
-      width: 80px;  /* control size here */
-      height: auto;
-      display: block;
-    }
+   .accent img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
     
     .accent a {
       /* Styles back-to-top link (if enabled) */
