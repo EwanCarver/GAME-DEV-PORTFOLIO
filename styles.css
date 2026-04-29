@@ -98,10 +98,17 @@
       font-size: 14px;
       color: #fff;
     }
-     .accent {
+       .accent {
       position: absolute;
       bottom: 20px;
       right: 20px;
+
+      /* remove circle look */
+      background: none;
+      border-radius: 0;
+
+      /* optional: remove flex centering if not needed */
+      display: block;
     }
 
     .accent img {
