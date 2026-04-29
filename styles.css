@@ -33,7 +33,7 @@
     }
     header h1 {
       /* Styles the header title */
-      font-size: 24px;
+      font-size: 30px;
       color: #fff;
       margin: 0;
       text-align: center;
@@ -67,10 +67,15 @@
       padding: 10px;
       box-sizing: border-box;
     }
-    main p, main h2, main ul {
+    main p, main ul {
       /* Styles content text and lists */
       margin: 0 0 10px 0;
       font-size: 16px;
+      color: #222;
+    }
+    main h2 {
+        margin: 0 0 10px 0;
+      font-size: 22px;
       color: #222;
     }
     main img {
